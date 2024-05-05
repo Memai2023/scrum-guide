@@ -1,7 +1,7 @@
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import { Link } from 'react-router-dom'
 
-const Buttons = ({direction, path}) => {  
+const Buttons = ({direction, path}) => {
     return (
         <>
             {direction === "forward" ? (
