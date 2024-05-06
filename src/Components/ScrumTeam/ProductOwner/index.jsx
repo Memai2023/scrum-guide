@@ -6,10 +6,10 @@ const ProductOwner = () => {
     return (
         <>
             <div className={styles.imagepart}>
-                <div className={styles.imagewraper}>
+                <div className={styles.imagewrapper}>
                     <img className={styles.teamimage} src={teamwork} alt="Image" />
                 </div>
-                <div className={styles.textwraper}>
+                <div className={styles.textwrapper}>
                     <p className={styles.whatText}>{ScrumTeam.whatText}</p>
                     <ul className={styles.keyRolesText}>{ScrumTeam.keyRolesText}
                         <li>{ScrumTeam.bulletOne}</li>
@@ -19,10 +19,10 @@ const ProductOwner = () => {
                 </div>
             </div>
             <div className={styles.productpart}>
-                <div className={styles.headerwraper}>
+                <div className={styles.headerwrapper}>
                     <h1 className={styles.headertext}>The Product Owner</h1>
                 </div>
-                <div className={styles.textwraper}>
+                <div className={styles.textwrapper}>
                     <p className={styles.productOwnerText}>{ScrumTeam.productOwnerText}</p>
                 </div>
             </div>
