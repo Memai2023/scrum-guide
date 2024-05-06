@@ -20,7 +20,7 @@ const ProductOwner = () => {
             </div>
             <div className={styles.productpart}>
                 <div className={styles.headerwrapper}>
-                    <h1 className={styles.headertext}>The Product Owner</h1>
+                    <h2 className={styles.headertext}>The Product Owner</h2>
                 </div>
                 <div className={styles.textwrapper}>
                     <p className={styles.productOwnerText}>{ScrumTeam.productOwnerText}</p>
