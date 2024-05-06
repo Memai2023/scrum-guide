@@ -34,7 +34,7 @@ const Layout = () => {
                         <NavLink className={({ isActive}) => isActive ?  styles.active : ''} to='artifacts'>Three Artifacts</NavLink>
                     </div>
                 }
-            <img src="../public/images/logo_transparent.png" alt="scrumbags logo" width={'25px'}/>
+            <img src="/public/images/logo_transparent.png" alt="scrumbags logo" width={'25px'}/>
         </div>
         <Outlet />
         </>
