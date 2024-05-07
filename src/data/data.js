@@ -88,6 +88,6 @@ export const Artifacts = {
     sprintReviewText: "At the Sprint Review, the Increment is demonstrated and evaluated against the Sprint Goal, providing stakeholders with visibility into the progress made and gathering feedback for further refinement. This collaborative process ensures alignment with customer needs and enables iterative improvement of the product.",
     importanceOfArtifactsText: "The state of the three artifacts determine the future trajectory of the work as decisions are made based on them. It is important that all the work is conducted in a transparent way, meaning that every member of the team has access to the latest updates and information regarding the product backlog, Sprint backlog, and increment. Transparency ensures that everyone is on the same page, allowing for better collaboration, decision-making, and alignment with project goals. Without transparency, misunderstandings and miscommunications can arise, leading to delays, rework, and ultimately, a compromised product or project outcome.",
     heroImgSource: "/Images/bluefront.jpg",
-    scrumAllPartsImgSource: "/Images/scrum-triangle1.svg",
+    scrumAllPartsImgSource: "/Images/scrum2.svg",
     teamCelebratingImgSource: "/Images/celebrating2.jpg"
 }
