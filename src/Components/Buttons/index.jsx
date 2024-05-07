@@ -16,4 +16,4 @@ const Buttons = ({direction, path}) => {
         </>
     )
 }
-export default Buttons
+export default Buttons 

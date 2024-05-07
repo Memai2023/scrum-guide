@@ -1,0 +1,58 @@
+body {
+    background-color: #E4DEE8;
+}
+
+.wraper {
+    display: flex;
+    flex-direction: row;
+}
+
+.mainText,
+.cirkles {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text {
+    width: 50%;
+}
+
+.image {
+    width: 100%;
+    height: auto;
+}
+
+.navigation {    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.sec {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (max-width: 768px) {
+    .wraper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .mainText,
+    .cirkles {
+        width: 100%;
+    }
+
+    .text,
+    .circleImageSource {
+        width: 80%;
+    }
+}
