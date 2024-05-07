@@ -1,13 +1,14 @@
 .theoryContainer {
     display: flex;
     flex-direction: column;
+    align-items: center;
     padding: 24px;
 }
 
 .contentContainer {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    align-items: center;
     padding: 0 24px;
 }
 
@@ -16,7 +17,6 @@
     border-radius: 10px;
     color: #fff;
     padding: 16px;
-    text-align: center;
     flex-grow: 0;
 }
 
@@ -29,21 +29,19 @@
 }
 
 .imgContainer {
+    display: flex;
     padding: 24px;
+    justify-content: center;
 }
 
 .imgContainer img {
     border-radius: 10px;
-    width: 100%;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 350px;
 }
 
 @media screen and (min-width: 768px) {
     .theoryContainer {
         flex-direction: row;
-    }
-
-    .imgContainer {
-        width: 60%;
     }
 }
