@@ -53,7 +53,7 @@ export const ScrumTeam = {
     conclusionText: "Each role brings unique skills and perspectives, fostering a dynamic and self-organizing environment where innovation thrives and value is consistently delivered.",
     heroImgSource: "/Images/purplefront.jpg",
     teamImageSource: "/Images/teamwork.jpg",
-    circleImageSource: "/Images/ScrumRoles.png"
+    circleImageSource: "/Images/ScrumRoles.svg"
 }
 
 export const SprintEvents = {
