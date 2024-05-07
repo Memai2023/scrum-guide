@@ -70,7 +70,7 @@ export const SprintEvents = {
     eventConclusionText: "These Sprint Events are like the playbook for the Scrum team. They give the team a rhythm and routine to follow, making sure everyone knows what to do and when. By sticking to these events, the team can deliver small, valuable pieces of work step by step. It's all about staying organized, talking openly, and getting better together, just like a sports team strategizing during a game and cheering for each other's achievements.",
     heroImgSource:"/Images/pinkfront.jpg",
     thumbsUpImageSource: "/Images/celebrating.jpg",
-    sprintCycleImageSource: "/Images/sprintevent.jpg"
+    sprintCycleImageSource: "/Images/sprintevent.svg"
 }
 
 export const Artifacts = {
