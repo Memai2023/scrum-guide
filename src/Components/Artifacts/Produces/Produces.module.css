@@ -17,6 +17,7 @@
 
 .twoColumnTextContainer .imageWrapper img {
     border-radius: 10px;
+    max-width: 500px;
     width: 100%;
 }
 
@@ -34,7 +35,7 @@
 
     .twoColumnTextContainer .imageWrapper img {
         max-width: 80%;
-        width: 700px;
+        width: 450px;
     }
 
     .twoColumnTextContainer .textWrapper {
