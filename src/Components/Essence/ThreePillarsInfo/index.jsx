@@ -16,10 +16,10 @@ const ThreePillarsInfo = () => {
     return (
         <div className={styles.threePillarsContainer}>
             <div className={styles.pillarContainer}>
-        <PillarCard title="Inspection" text={Essence.inspectionText} postScript={Essence.inspectionPS} className={styles.firstcard} />
-        <PillarCard title="Adaptation" text={Essence.adaptionText} postScript={Essence.adaptionPS} className={styles.secondcard} />
-        <PillarCard title="Transparency" text={Essence.transparencyText} postScript={Essence.transparencyPS} className={styles.thirdcard}/>
-        </div>
+              <PillarCard title="Inspection" text={Essence.inspectionText} postScript={Essence.inspectionPS} className={styles.firstcard} />
+              <PillarCard title="Adaptation" text={Essence.adaptionText} postScript={Essence.adaptionPS} className={styles.secondcard} />
+              <PillarCard title="Transparency" text={Essence.transparencyText} postScript={Essence.transparencyPS} className={styles.thirdcard}/>
+            </div>
         </div>
     );
 };
