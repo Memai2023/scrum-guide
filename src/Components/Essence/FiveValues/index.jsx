@@ -34,6 +34,4 @@ const FiveValues = () => {
         </div>
     );
 };
-
 export default FiveValues;
-
