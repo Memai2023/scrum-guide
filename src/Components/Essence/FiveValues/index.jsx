@@ -7,8 +7,8 @@ const FiveValues = () => {
             <div className={styles.container}>
                 <h1 className={styles.title}>The 5 values of Scrum</h1>
                 <p className={styles.sideText}>{Essence.fiveValuesText}</p>
-            </div>
-            <div className={styles.mainContainer}>
+                </div>
+                <div className={styles.mainContainer}>
                     <div className={styles.circle}>
                         <h2 className={styles.circleTitle}>Commitment</h2>
                         <p>{Essence.commitmentCircleText}</p>
