@@ -1,5 +1,4 @@
 import styles from './ProductOwner.module.css'
-import teamwork from '../../../../Public/Images/teamwork.jpg'
 import {ScrumTeam} from '../../../data/data.js'
 
 const ProductOwner = () => {
@@ -7,7 +6,7 @@ const ProductOwner = () => {
         <>        
             <div className={styles.imagepart}>
                 <div className={styles.imagewraper}>
-                    <img className={styles.teamimage} src={teamwork} alt="Image"/>
+                    <img className={styles.teamimage} src={ScrumTeam.teamImageSource} alt="Image"/>
                 </div>
                 <div className={styles.textwraper}> 
                     <p className={styles.whatText}>{ScrumTeam.whatText}</p>
