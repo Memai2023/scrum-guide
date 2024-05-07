@@ -37,7 +37,7 @@ export const Essence = {
     frameworkImgSource:"/Images/scrum-overview.jpg",
     historyDynamicsImgSource:"/Images/green2.jpg",
     manWorkingImgSource: "/Images/manworking.jpg",
-    houseImgSource: "/Images/greenhouse.jpg"
+    houseImgSource: "/Images/greenhouse.svg"
 }
 
 export const ScrumTeam = {
