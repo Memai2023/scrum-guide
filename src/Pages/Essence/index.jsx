@@ -7,7 +7,7 @@ import styles from './Essence.module.css'
 const Essence = () => {
     return(
         <div className={styles.essenceContainer}>
-            <WhatIsScrum/>  
+            <WhatIsScrum/>
             <History />
             <Theory />
             <HouseOfScrum />

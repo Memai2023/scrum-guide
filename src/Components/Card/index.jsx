@@ -4,7 +4,6 @@ const Card = ({ title, text, className }) => {
             <h2>{title}</h2>
             <p>{text}</p>
         </div>
-    );
-};
-
-export default Card;
+    )
+}
+export default Card
