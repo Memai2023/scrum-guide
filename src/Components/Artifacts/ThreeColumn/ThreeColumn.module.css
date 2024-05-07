@@ -1,0 +1,59 @@
+:root {
+    --artifacts-bg-color: #3E516F
+}
+
+.threeColumnContainer {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.firstcard, .secondcard, .thirdcard {
+    background-color: var(--artifacts-bg-color);
+    border-radius: 20px;
+    flex: 1;
+    padding: 50px 32px;
+}
+
+.firstcard, .thirdcard {
+    margin: 32px;
+}
+
+.secondcard {
+    margin: 0 32px;
+}
+
+.firstcard h2, .secondcard h2, .thirdcard h2 {
+    padding-bottom: 30px;
+}
+
+@media screen and (min-width: 768px) {
+    .threeColumnContainer {
+        color: white;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        width: 100%;
+    }
+
+    .firstcard, .secondcard, .thirdcard {
+        background-color: var(--artifacts-bg-color);
+        border-radius: 20px;
+        flex: 1;
+        padding: 50px 32px;
+    }
+
+    .firstcard, .thirdcard {
+        margin: 16px;
+    }
+
+    .secondcard {
+        margin: 16px 0;
+    }
+
+    .firstcard h2, .secondcard h2, .thirdcard h2{
+        padding-bottom: 30px;
+    }
+}
