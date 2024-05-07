@@ -1,0 +1,18 @@
+:root {
+    --essence-bg-color: #DDE5DD;
+    --essence-highlight-color: #008960;
+    --essence-dark-green: #294E43;
+  }
+
+.essenceContainer {
+    align-items: center;
+    background-color: var(--essence-bg-color);
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (min-width: 1200px) {
+  .essenceContainer {
+    padding: 0 200px
+  }
+}
