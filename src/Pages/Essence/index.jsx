@@ -1,3 +1,15 @@
+<<<<<<< HEAD
+import React from 'react';
+import ThreePillars from '../../Components/Essence/ThreePillarsInfo';
+
+const Essence = () => {
+    return(
+        <>
+        <ThreePillars />
+        </>
+    );
+};
+=======
 import WhatIsScrum from "../../Components/Essence/WhatIsScrum"
 import History from "../../Components/Essence/History"
 import HouseOfScrum from "../../Components/Essence/HouseOfScrum"
@@ -16,5 +28,6 @@ const Essence = () => {
         </div>
     )
 }
+>>>>>>> main
 
 export default Essence;
