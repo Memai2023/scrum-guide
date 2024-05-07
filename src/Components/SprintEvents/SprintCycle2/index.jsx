@@ -11,7 +11,7 @@ const SprintCycle2 = () => {
             <div className={styles.text}>
                 <p>{SprintEvents.eventConclusionText}</p>
                 <div className={styles.navigationButton}>
-                    <Buttons direction="back" path="/scrum"/>
+                    <Buttons direction="back" path="/scrum-team"/>
                     <Buttons direction="forward" path="/artifacts"/>
                 </div>
             </div>
@@ -19,5 +19,4 @@ const SprintCycle2 = () => {
     </>
     )
 }
-
 export default SprintCycle2;
