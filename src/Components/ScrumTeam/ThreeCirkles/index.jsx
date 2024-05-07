@@ -11,7 +11,7 @@ const TreeCirkles = () => {
                 <div className={styles.mainText}>
                     <p className={styles.text}>{ScrumTeam.conclusionText}</p>
                 </div>
-                <div className={styles.cirkles}>
+                <div>
                     <img src={ScrumTeam.circleImageSource} className={styles.image}/>
                 </div>
             </main>

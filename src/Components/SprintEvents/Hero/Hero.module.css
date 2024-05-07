@@ -1,0 +1,8 @@
+.heroImage {
+    display: flex;
+    background-size: cover;
+    background-position: 50% 50%;
+    flex-direction: column;
+    height: 75vh;
+    width: 100%;
+}

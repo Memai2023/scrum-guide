@@ -1,14 +1,9 @@
-body {
-    background-color: #E4DEE8;
-}
-
 .wraper {
     display: flex;
     flex-direction: row;
 }
 
-.mainText,
-.cirkles {
+.mainText {
     width: 50%;
     display: flex;
     justify-content: center;
@@ -40,7 +35,6 @@ body {
 
 @media only screen and (max-width: 768px) {
     .wraper {
-        display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
