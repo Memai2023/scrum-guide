@@ -6,6 +6,7 @@ import Theory from "../../Components/Essence/Theory"
 import ThreePillars from "../../Components/Essence/ThreePillars"
 import ThreePillarsInfo from '../../Components/Essence/ThreePillarsInfo';
 import HeroImage from '../../Components/Essence/HeroImage'
+import FiveValues from "../../Components/Essence/FiveValues"
 import styles from './Essence.module.css'
 
 const Essence = () => {
@@ -15,9 +16,10 @@ const Essence = () => {
             <WhatIsScrum/>
             <History />
             <Theory />
-            <HouseOfScrum />
             <ThreePillars />
             <ThreePillarsInfo />
+            <FiveValues />
+            <HouseOfScrum />    
         </div>
     )
 }
