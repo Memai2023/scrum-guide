@@ -11,9 +11,11 @@ const HouseOfScrum = () => {
                     <h2 className={styles.title}>The house of Scrum</h2>
                     <p>{Essence.houseOfScrumTextOne}</p>
                     <p>{Essence.houseOfScrumTextTwo}</p>
-                    <Buttons path={'/'}/>
-                    <Buttons direction={'forward'} path={'/scrum-team'} />
                 </div>
+            </div>
+            <div className={styles.buttonWrapper}>
+                <Buttons path={'/'}/>
+                <Buttons direction={'forward'} path={'/scrum-team'} />
             </div>
         </>
     )
