@@ -7,7 +7,7 @@ const SprintCycle2 = () => {
     return (
         <>
             <div className={styles.content}>
-                <img src="../../../public/Images/sprintevent.jpg" alt="sprint circle" />
+                <img className={styles.cykleimage} src="../../../public/Images/sprintevent.jpg" alt="sprint circle" />
             <div className={styles.text}>
                 <p>{SprintEvents.eventConclusionText}</p>
                 <div className={styles.navigationButton}>
