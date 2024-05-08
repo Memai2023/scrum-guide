@@ -9,4 +9,5 @@
     background-color: var(--essence-bg-color);
     display: flex;
     flex-direction: column;
+    padding-bottom: 48px;
 }
