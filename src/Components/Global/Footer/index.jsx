@@ -7,7 +7,7 @@ const Footer = () => {
       <div className={styles.footerLeft}>
         <h3>Created by the Scrumbags</h3>
         <ul>
-          <li>Alexandra Bomberg</li>
+          <li>Alexandra Blomberg</li>
           <li>Miski M. Manzizila</li>
           <li>Wilma Norman</li>
           <li>Lisette Swan</li>
@@ -15,6 +15,7 @@ const Footer = () => {
         </ul>
       </div>
       <div className={styles.footerCenter}>
+      <img src="/Images/logo_transparent.png" alt="Logo transparant" style={{ maxWidth: '100px' }} />
       <img src="Public/Images/logo_transparant.png" alt="Logo transparent" style={{ maxWidth: '100px' }} />
       </div>
       <div className={styles.footerRight}>
