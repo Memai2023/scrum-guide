@@ -1,0 +1,50 @@
+html {
+    background-color: #FDF1F8;
+}
+
+.mainContent {
+    display: flex;
+    text-align: center;
+    flex: 1;
+    position: sticky;
+    top: 122px;
+    flex-direction: column;
+} 
+
+.box {
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.imageContainer {
+    flex-direction: row;
+    margin-left: 7rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+}
+
+.text {
+    aspect-ratio: 1;
+    border-radius: 20px;
+    width: 30rem;
+    height: 15rem;
+    margin: 10px;
+    background-color: #B7589C;
+    color: white;
+    padding: 10px;
+}
+
+.title {
+    font-weight: normal;
+    text-align: center;
+}
+
+@media screen and (min-width: 767px) {
+    
+}
