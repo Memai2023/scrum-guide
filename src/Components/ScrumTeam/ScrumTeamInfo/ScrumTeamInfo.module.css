@@ -63,22 +63,3 @@ li {
       padding-left: 20px; 
   }
 }
-
-@media (max-width: 768px) {
-  .infoContainer {
-      padding: 10px; 
-  }
-
-  .teamImage {
-      width: 100%; 
-      margin-bottom: 15px; 
-  }
-
-  .infoText {
-      padding: 0 5px;
-  }
-
-  ul {
-      padding-left: 20px; 
-  }
-}
