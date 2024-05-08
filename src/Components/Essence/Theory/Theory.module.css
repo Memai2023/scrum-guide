@@ -22,6 +22,7 @@
 
 .contentContainer p {
     flex-grow: 0;
+    text-align: center;
 }
 
 .theoryContainer * {
