@@ -5,6 +5,7 @@ import ScrumTeam from './Pages/ScrumTeam'
 import SprintEvents from './Pages/SprintEvents'
 import Layout from './Pages/Layout'
 import { Routes, Route } from 'react-router-dom'
+import Footer from './Components/Global/Footer/index'
 import './App.css'
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
           <Route path='artifacts' element={<Artifacts />}/>
         </Route>
       </Routes>
+      <Footer />
     </>
   )
 }
