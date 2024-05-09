@@ -10,6 +10,7 @@
 
 .column {
   flex: 1 1 300px;
+  height: 300px;
   margin: 10px;
   background-color: #B7589C;
   border-radius: 20px;
@@ -40,14 +41,26 @@
   .container {
     flex-direction: column;
     align-items: stretch;
+    min-height: 100vh;
   }
 
   .column {
     flex: 1 1 100%;
-    max-width: none;
+    height: auto;
+    margin: 10px 0;
+    padding: 15px;
   }
 
   .card {
     padding: 15px;
+    border-radius: 10px;
+  }
+
+  .card h2 {
+    font-size: 28px;
+  }
+
+  .card p {
+    font-size: 14px;
   }
 }
