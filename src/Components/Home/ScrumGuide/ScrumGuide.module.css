@@ -48,7 +48,7 @@
 }
 
 @media screen and (min-width: 768px){
-    img {
+    .imageContainer img {
         width: 80%;
         margin-top: 10px;
         margin-bottom: 10px;
