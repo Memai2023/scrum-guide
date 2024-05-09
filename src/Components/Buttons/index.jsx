@@ -22,4 +22,5 @@ const Buttons = ({direction, path}) => {
     )
 }
 
+
 export default Buttons;
