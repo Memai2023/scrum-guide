@@ -20,6 +20,7 @@ const Essence = () => {
             <ThreePillarsInfo />
             <FiveValues />
             <HouseOfScrum />    
+            <HouseOfScrum />
         </div>
     )
 }
