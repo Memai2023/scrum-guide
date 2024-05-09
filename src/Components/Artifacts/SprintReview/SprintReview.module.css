@@ -4,6 +4,7 @@
 
 .twoColumnTextContainer {
     background-color: var(--artifact-sprint-review-bg-color);
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
