@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 
+=======
+>>>>>>> 4a5948c211bdc7d2a95a0e74b9e9a0570f583cb5
 .content {
     display: flex;
     align-items: center;
@@ -9,10 +12,9 @@
     flex-wrap: wrap;
 }
 
-img {
+.cykleimage {
     border-radius: 20px;
-    width: 100%; 
-    max-width: 400px; 
+    width: 40%; 
     height: auto; 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
@@ -25,14 +27,25 @@ img {
     line-height: 1.6;
 }
 
+.navigationButton {
+    display: flex;
+    justify-content: center;
+    margin: 24px;
+}
+
 @media screen and (min-width: 768px) {
+
+    .cykleimage {
+        margin-left: 5%;
+    }
+
     .container {
         flex-direction: row;
         display: flex;
         flex-wrap: wrap;
     }
 
-    .container img {
+    .container .cykleimage {
         max-width: 40%;
         margin-bottom: 0; 
         margin-right: 20px; 
