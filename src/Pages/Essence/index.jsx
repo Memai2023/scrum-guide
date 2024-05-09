@@ -13,9 +13,9 @@ const Essence = () => {
             <WhatIsScrum/>
             <History />
             <Theory />
-            <HouseOfScrum />
             <ThreePillars />
             <ThreePillarsInfo />
+            <HouseOfScrum />
         </div>
     )
 }
