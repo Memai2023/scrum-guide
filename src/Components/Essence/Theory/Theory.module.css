@@ -22,6 +22,7 @@
 
 .contentContainer p {
     flex-grow: 0;
+    text-align: center;
 }
 
 .theoryContainer * {
@@ -45,3 +46,9 @@
         flex-direction: row;
     }
 }
+
+@media screen and (min-width: 1200px) {
+    .theoryContainer {
+      padding: 0 200px
+    }
+  }
