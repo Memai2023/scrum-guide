@@ -37,7 +37,7 @@ export const Essence = {
     frameworkImgSource:"/Images/scrum-overview.jpg",
     historyDynamicsImgSource:"/Images/green2.jpg",
     manWorkingImgSource: "/Images/manworking.jpg",
-    houseImgSource: "/Images/greenhouse.jpg"
+    houseImgSource: "/Images/greenhouse.svg"
 }
 
 export const ScrumTeam = {
@@ -53,7 +53,7 @@ export const ScrumTeam = {
     conclusionText: "Each role brings unique skills and perspectives, fostering a dynamic and self-organizing environment where innovation thrives and value is consistently delivered.",
     heroImgSource: "/Images/purplefront.jpg",
     teamImageSource: "/Images/teamwork.jpg",
-    circleImageSource: "/Images/ScrumRoles.png"
+    circleImageSource: "/Images/ScrumRoles.svg"
 }
 
 export const SprintEvents = {
@@ -70,7 +70,7 @@ export const SprintEvents = {
     eventConclusionText: "These Sprint Events are like the playbook for the Scrum team. They give the team a rhythm and routine to follow, making sure everyone knows what to do and when. By sticking to these events, the team can deliver small, valuable pieces of work step by step. It's all about staying organized, talking openly, and getting better together, just like a sports team strategizing during a game and cheering for each other's achievements.",
     heroImgSource:"/Images/pinkfront.jpg",
     thumbsUpImageSource: "/Images/celebrating.jpg",
-    sprintCycleImageSource: "/Images/sprintevent.jpg"
+    sprintCycleImageSource: "/Images/sprintevent.svg"
 }
 
 export const Artifacts = {
@@ -88,6 +88,6 @@ export const Artifacts = {
     sprintReviewText: "At the Sprint Review, the Increment is demonstrated and evaluated against the Sprint Goal, providing stakeholders with visibility into the progress made and gathering feedback for further refinement. This collaborative process ensures alignment with customer needs and enables iterative improvement of the product.",
     importanceOfArtifactsText: "The state of the three artifacts determine the future trajectory of the work as decisions are made based on them. It is important that all the work is conducted in a transparent way, meaning that every member of the team has access to the latest updates and information regarding the product backlog, Sprint backlog, and increment. Transparency ensures that everyone is on the same page, allowing for better collaboration, decision-making, and alignment with project goals. Without transparency, misunderstandings and miscommunications can arise, leading to delays, rework, and ultimately, a compromised product or project outcome.",
     heroImgSource: "/Images/bluefront.jpg",
-    scrumAllPartsImgSource: "/Images/scrum.jpg",
+    scrumAllPartsImgSource: "/Images/scrum2.svg",
     teamCelebratingImgSource: "/Images/celebrating2.jpg"
 }
