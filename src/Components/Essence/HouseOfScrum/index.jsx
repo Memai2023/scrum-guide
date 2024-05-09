@@ -1,5 +1,6 @@
-import styles from './HouseOfScrum.module.css'
 import { Essence } from '../../../data/data'
+import Buttons from '../../Buttons'
+import styles from './HouseOfScrum.module.css'
 
 const HouseOfScrum = () => {
     return (
@@ -11,6 +12,10 @@ const HouseOfScrum = () => {
                     <p>{Essence.houseOfScrumTextOne}</p>
                     <p>{Essence.houseOfScrumTextTwo}</p>
                 </div>
+            </div>
+            <div className={styles.buttonWrapper}>
+                <Buttons path={'/'}/>
+                <Buttons direction={'forward'} path={'/scrum-team'} />
             </div>
         </>
     )
