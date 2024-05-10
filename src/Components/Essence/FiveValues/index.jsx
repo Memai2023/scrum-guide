@@ -30,7 +30,6 @@ const FiveValues = () => {
                     <p>{Essence.respectCircleText}</p>
                 </div>
             </div>
-            <hr className={styles.lines} />
         </div>
     );
 };

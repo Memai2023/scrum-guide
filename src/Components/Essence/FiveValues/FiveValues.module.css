@@ -36,14 +36,6 @@
     padding: 48px;
     margin: 32px;
 }
-.lines {
-    width: 90%;
-    height: 1px;
-    background-color: #3D633D; 
-    border: none;
-    margin-top: 20px; 
-    margin-bottom: 20px; 
-}
 
 p {
     text-align: center;
