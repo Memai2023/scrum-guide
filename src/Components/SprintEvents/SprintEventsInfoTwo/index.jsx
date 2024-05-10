@@ -5,19 +5,15 @@ import { SprintEvents } from '../../../data/data';
 const SprintEventsInfoTwo = () => {
   return (
     <div className={styles.container}>
-      <div className={styles.column}>
         <div className={styles.card}>
           <h2>Sprint Review</h2>
           <p>{SprintEvents.sprintReviewText}</p>
         </div>
-      </div>
-      <div className={styles.column}>
         <div className={styles.card}>
           <h2>Daily Retrospective</h2>
           <p>{SprintEvents.retrospectiveText}</p>
         </div>
       </div>
-    </div>
   );
 };
 
