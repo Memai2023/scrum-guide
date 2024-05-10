@@ -1,15 +1,27 @@
-import {SprintEvents} from '../../../data/data'
-import styles from './Hero.module.css'
+import { useEffect, useState } from 'react';
+import styles from './Hero.module.css';
+import { SprintEvents } from '../../../data/data';
 
 const EventsHero = () => {
-    return (
-        <>
-        <div style={{backgroundImage:`url(${SprintEvents.heroImgSource})`}} className={styles.wraperHero} >                           
-            <h1 className={styles.headerText}>Sprint Events</h1>  
-            <hr class={styles.border}/>
-        </div>                   
-        </>
-    )
-}
+    const [loaded, setLoaded] = useState(false);
 
-export default EventsHero
+    useEffect(() => {
+        const img = new Image();
+        img.onload = () => {
+            setLoaded(true);
+        };
+        img.src = SprintEvents.heroImgSource;
+    }, []);
+
+    return (
+        <div className={styles.heroContainer}>
+            <div className={`${styles.background} ${loaded ? styles.show : ''}`} style={{ backgroundImage: `url(${SprintEvents.heroImgSource})` }}></div>
+            <div className={`${styles.content} ${loaded ? styles.show : ''}`}>
+                <h1 className={styles.header}>{SprintEvents.heroTitle}</h1>
+                <hr className={styles.heroLine}></hr>
+            </div>
+        </div>
+    );
+};
+
+export default EventsHero;
