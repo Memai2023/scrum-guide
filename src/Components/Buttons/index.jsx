@@ -16,8 +16,4 @@ const Buttons = ({direction, path}) => {
         </>
     )
 }
-<<<<<<< HEAD
-export default Buttons 
-=======
-export default Buttons;
->>>>>>> main
+export default Buttons
