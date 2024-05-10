@@ -1,14 +1,16 @@
 import React from 'react';
 import ScrumTeamHero from "../../Components/ScrumTeam/Hero";
 import ProductOwner from "../../Components/ScrumTeam/ProductOwner"
+import TreeCirkles from "../../Components/ScrumTeam/ThreeCirkles"
 
 const ScrumTeam = () => {
-    return (
-    <div>
-        <ScrumTeamHero />
-        <ProductOwner />
+    return(
+        <div className={styles.scrumTeamContainer}>
+            <ScrumTeamHero />
+            <ProductOwner />
+            <TreeCirkles />
         </div>
-    );
-};
+    )
+}
 
 export default ScrumTeam;
