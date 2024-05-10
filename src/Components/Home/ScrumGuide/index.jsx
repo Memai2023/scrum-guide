@@ -15,7 +15,7 @@ const ScrumGuide = () => {
                     </div>
                 </div>
                 <div className={styles.imageContainer}>
-                    <img src="/Images/happygirl.jpg" alt="Happy woman at office" />
+                    <img src={Home.girlImgSource} alt="Happy woman at office" />
                 </div>
             </div>
         </>
