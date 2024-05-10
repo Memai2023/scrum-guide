@@ -1,3 +1,4 @@
+import EventsHero from "../../Components/SprintEvents/Hero"
 import React from 'react';
 import SprintEventsInfoOne from "../../Components/SprintEvents/SpringEventsInfoOne";
 import SprintEventsInfoTwo from "../../Components/SprintEvents/SprintEventsInfoTwo";
@@ -5,6 +6,7 @@ import SprintEventsInfoTwo from "../../Components/SprintEvents/SprintEventsInfoT
 const SprintEvents = () => {
     return(
         <div>
+            <EventsHero />
             <SprintEventsInfoOne/>
             <SprintEventsInfoTwo />
         </div>
