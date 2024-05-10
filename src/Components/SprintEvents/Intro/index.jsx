@@ -8,7 +8,7 @@ const Intro = () => {
                 <img src={SprintEvents.thumbsUpImageSource} alt="a team doing tumbs up to you" />
             </div>
             <div className={styles.txtWrapper}>
-                <p>{SprintEvents.whatText}</p>
+                <p className={styles.introtxt}>{SprintEvents.whatText}</p>
                 <ol className={styles.numbers}>
                     <li>{SprintEvents.bulletOne}</li>
                     <li>{SprintEvents.bulletTwo}</li>
