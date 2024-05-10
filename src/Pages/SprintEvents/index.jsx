@@ -18,5 +18,3 @@ const SprintEvents = () => {
 }
 
 export default SprintEvents;
-
-export default SprintEvents;
