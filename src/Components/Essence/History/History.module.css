@@ -54,3 +54,9 @@
         width: 40%;
     }
 }
+
+@media screen and (min-width: 1200px) {
+    .historyContainer {
+      padding: 0 200px
+    }
+  }

@@ -7,12 +7,8 @@
 .essenceContainer {
     align-items: center;
     background-color: var(--essence-bg-color);
+    color: #666;
     display: flex;
     flex-direction: column;
-}
-
-@media screen and (min-width: 1200px) {
-  .essenceContainer {
-    padding: 0 200px
-  }
+    padding-bottom: 48px;
 }
