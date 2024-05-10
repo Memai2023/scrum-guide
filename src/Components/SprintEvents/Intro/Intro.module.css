@@ -25,6 +25,7 @@
     .introContainer {
         align-items: center;
         flex-direction: row;
+        padding: 88px;
     }
 
     .introContainer .imgWrapper {
@@ -43,4 +44,3 @@
         padding-right: 32px;
     }
 }
-

@@ -9,12 +9,12 @@ const Intro = () => {
             </div>
             <div className={styles.txtWrapper}>
                 <p>{SprintEvents.whatText}</p>
-                <ul>
+                <ol className={styles.numbers}>
                     <li>{SprintEvents.bulletOne}</li>
                     <li>{SprintEvents.bulletTwo}</li>
                     <li>{SprintEvents.bulletThree}</li>
                     <li>{SprintEvents.bulletFour}</li>
-                </ul>
+                </ol>
             </div>
         </div>
     )
