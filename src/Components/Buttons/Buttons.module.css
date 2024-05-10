@@ -1,0 +1,15 @@
+.arrow {
+    aspect-ratio: 1/1;
+    background-color: #D9D9D9;
+    border-radius: 50%;
+    color: #666;
+    display: flex;
+    height: 40px;
+    justify-content: center;
+    margin: 3px;
+    padding: 8px;
+}
+
+.arrow:hover {
+    color: #fff;
+}
