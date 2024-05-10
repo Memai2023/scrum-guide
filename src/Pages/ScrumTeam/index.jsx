@@ -10,8 +10,8 @@ const ScrumTeam = () => {
         <div className={styles.scrumTeamContainer}>
             <ScrumTeamHero />
             <ProductOwner />
-            <TreeCirkles /> 
             <DevelopTeam />
+            <TreeCirkles />             
         </div>
     )
 }
