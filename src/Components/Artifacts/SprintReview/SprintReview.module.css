@@ -1,9 +1,6 @@
-:root {
-    --artifact-sprint-review-bg-color: #484F85;
-}
-
 .twoColumnTextContainer {
     background-color: var(--artifact-sprint-review-bg-color);
+    color: var(--artifact-bg-color);
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
