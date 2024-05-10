@@ -55,6 +55,11 @@ h2 {
 
 @media screen and (max-width: 767px) {
     .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin-top: 96px;
+        font-size: 19px;
         align-items: center;
     }
 
@@ -65,7 +70,7 @@ h2 {
 
     .sideText {
         width: 85%; 
-        padding-right: 32px;
+        text-align: center;
     }
 
     .circle {
