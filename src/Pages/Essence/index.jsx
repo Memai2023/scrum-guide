@@ -18,6 +18,6 @@ const Essence = () => {
             <HouseOfScrum />
         </div>
     )
-}
+};
 
 export default Essence;
