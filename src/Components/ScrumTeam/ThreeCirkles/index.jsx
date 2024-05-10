@@ -1,7 +1,6 @@
 import styles from './Cirkles.module.css'
 import {ScrumTeam} from '../../../data/data'
 import Buttons from '../../Buttons'
-import { Link } from 'react-router-dom'
 
 const TreeCirkles = () => {
     return (
@@ -11,7 +10,7 @@ const TreeCirkles = () => {
                 <div className={styles.mainText}>
                     <p className={styles.text}>{ScrumTeam.conclusionText}</p>
                 </div>
-                <div>
+                <div className={styles.imagewraper}>
                     <img src={ScrumTeam.circleImageSource} className={styles.image}/>
                 </div>
             </main>
