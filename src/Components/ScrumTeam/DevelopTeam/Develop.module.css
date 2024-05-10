@@ -13,33 +13,34 @@
 }
 
 .headerWraper {
-    background-color: #7C4885;
-    width: 30%;
+    width: 50%;
     height: 50%;
     margin: 20px;
     justify-content: center;
     align-items: center;
     display: flex;
-    border-radius: 30px;
 }
 
 .headerScrum {
+    background-color: #7C4885;
+    border-radius: 30px;
+    padding: 40px;
     color: #fff;
     margin: 10px;
-    font-size: 3rem;
+    font-size: 2rem;
 }
 
 .textWraper {
-    width: 40%;
+    width: 50%;
     height: 40%;
-    margin: 20px;
+    padding: 20px;
     justify-content: center;
     align-items: center;
     display: flex;
 }
 
 .scrumText {
-    width: 70%;
+    width: 80%;
     height: auto;
     display: flex;
 }
@@ -63,7 +64,7 @@
 }
 
 .developText {
-    width: 30%;
+    width: 50%;
     height: 40%;
     margin: 20px;
     justify-content: center;
@@ -73,7 +74,7 @@
 }
 
 .headerDevelop {
-    font-size: 3rem;
+    font-size: 2rem;
     text-align: center;    
 }
 

@@ -7,7 +7,7 @@ const DevelopTeam = () => {
         <main className={styles.wraper}>
             <div className={styles.wraperScrum}>
                 <div className={styles.headerWraper}>
-                    <p className={styles.headerScrum}>The Scrum Master</p>
+                    <h2 className={styles.headerScrum}>The Scrum Master</h2>
                 </div>
                 <div className={styles.textWraper}>
                     <p className={styles.scrumText}>{ScrumTeam.scrumMasterText}</p>
@@ -15,7 +15,7 @@ const DevelopTeam = () => {
             </div>            
             <div className={styles.wraperDevelop}>
                 <div className={styles.developText}>
-                    <h1 className={styles.headerDevelop}>{ScrumTeam.bulletThree}</h1>
+                    <h2 className={styles.headerDevelop}>{ScrumTeam.bulletThree}</h2>
                 </div>    
                 <div className={styles.textWraper}>
                     <p className={styles.scrumText}>{ScrumTeam.developmentTeamText}</p>
