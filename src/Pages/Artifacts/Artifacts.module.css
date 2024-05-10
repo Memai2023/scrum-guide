@@ -1,5 +1,7 @@
 :root {
     --artifact-bg-color: rgb(65, 65, 65);
+    --artifact-sprint-review-bg-color: #a3cae4;
+    --artifacts-bg-color: #1d91df;
 }
 
 .artifactContainer {
