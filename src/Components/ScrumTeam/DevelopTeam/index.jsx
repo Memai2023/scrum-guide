@@ -7,7 +7,7 @@ const DevelopTeam = () => {
         <main className={styles.wraper}>
             <div className={styles.wraperScrum}>
                 <div className={styles.headerWraper}>
-                    <h1 className={styles.headerScrum}>The Scrum Master</h1>
+                    <p className={styles.headerScrum}>The Scrum Master</p>
                 </div>
                 <div className={styles.textWraper}>
                     <p className={styles.scrumText}>{ScrumTeam.scrumMasterText}</p>
