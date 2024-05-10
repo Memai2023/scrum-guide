@@ -6,7 +6,7 @@ const HouseOfScrum = () => {
     return (
         <>
             <div className={styles.container}>
-                <img src="/Images/greenhouse.jpg" alt="house of scrum picture" />
+                <img src="/Images/greenhouse.svg" alt="house of scrum picture" />
                 <div className={styles.text}>
                     <h2 className={styles.title}>The house of Scrum</h2>
                     <p>{Essence.houseOfScrumTextOne}</p>
