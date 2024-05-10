@@ -13,7 +13,7 @@ const Importance = () => {
             <div className={styles.textWrapper}>
                 <Card title="The Importance of the Artifacts" text={Artifacts.importanceOfArtifactsText} />
                 <div className={styles.navigationButton}>
-                    <Buttons direction="back" path="/events"/>
+                    <Buttons direction="back" path="/events" text="Previous"/>
                 </div>
             </div>
         </div>
