@@ -1,3 +1,5 @@
+import React from 'react';
+import ThreePillars from '../../Components/Essence/ThreePillarsInfo';
 import WhatIsScrum from "../../Components/Essence/WhatIsScrum"
 import History from "../../Components/Essence/History"
 import HouseOfScrum from "../../Components/Essence/HouseOfScrum"
