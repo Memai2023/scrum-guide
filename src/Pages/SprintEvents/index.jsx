@@ -3,6 +3,7 @@ import React from 'react';
 import Intro from "../../Components/SprintEvents/Intro"
 import SprintEventsInfoOne from "../../Components/SprintEvents/SpringEventsInfoOne";
 import SprintEventsInfoTwo from "../../Components/SprintEvents/SprintEventsInfoTwo";
+import SprintCycle from "../../Components/SprintEvents/SprintCycle"
 
 const SprintEvents = () => {
     return(
@@ -10,7 +11,8 @@ const SprintEvents = () => {
             <EventsHero />
             <Intro />
             <SprintEventsInfoOne/>
-            <SprintEventsInfoTwo />
+            <SprintEventsInfoTwo />    
+            <SprintCycle />
         </div>
     )
 }
