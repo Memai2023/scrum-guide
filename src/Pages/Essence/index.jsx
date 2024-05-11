@@ -5,6 +5,7 @@ import History from "../../Components/Essence/History"
 import HouseOfScrum from "../../Components/Essence/HouseOfScrum"
 import Theory from "../../Components/Essence/Theory"
 import ThreePillars from "../../Components/Essence/ThreePillars"
+import FiveValues from "../../Components/Essence/FiveValues"
 import styles from './Essence.module.css'
 
 const Essence = () => {
@@ -15,6 +16,7 @@ const Essence = () => {
             <Theory />
             <ThreePillars />
             <ThreePillarsInfo />
+            <FiveValues />
             <HouseOfScrum />
         </div>
     )
