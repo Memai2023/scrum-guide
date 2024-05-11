@@ -9,4 +9,4 @@ const HomeHero = () => {
         </div>
     )
 }
-export default HomeHero
+export default HomeHero;
