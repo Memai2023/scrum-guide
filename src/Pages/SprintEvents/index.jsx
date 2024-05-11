@@ -4,6 +4,7 @@ import Intro from "../../Components/SprintEvents/Intro"
 import SprintEventsInfoOne from "../../Components/SprintEvents/SpringEventsInfoOne";
 import SprintEventsInfoTwo from "../../Components/SprintEvents/SprintEventsInfoTwo";
 import SprintCycle from "../../Components/SprintEvents/SprintCycle"
+import SprintCycle2 from "../../Components/SprintEvents/SprintCycle2"
 
 const SprintEvents = () => {
     return(
@@ -13,6 +14,7 @@ const SprintEvents = () => {
             <SprintEventsInfoOne/>
             <SprintEventsInfoTwo />    
             <SprintCycle />
+            <SprintCycle2 />
         </div>
     )
 }
