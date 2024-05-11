@@ -5,7 +5,7 @@ import styles from './ScrumTeam.module.css'
 
 const ScrumTeam = () => {
     return(
-        <div className={styles.ScrumTeam.module.css}>
+        <div>
             <ScrumHero />
             <ProductOwner />
             <TreeCirkles />
