@@ -10,7 +10,6 @@
 .title {
     font-weight: normal;
     width: 15rem;
-    text-align: center;
 }
 
 .sideText {
@@ -34,11 +33,7 @@
     color: white;
     height: 290px;
     padding: 48px;
-<<<<<<< HEAD
-    margin: 32px;
-=======
     margin-bottom: 32px;
->>>>>>> scrum20-five-values
 }
 
 p {
@@ -49,7 +44,7 @@ h2 {
     text-align: center;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
     .container {
         display: flex;
         flex-direction: column;
@@ -58,24 +53,20 @@ h2 {
         font-size: 19px;
         align-items: center;
     }
- 
+
     .title {
         padding: 32px;
-        width: 70%;
+        width: 70%; 
     }
- 
+
     .sideText {
-<<<<<<< HEAD
-        width: 85%; 
-=======
-        width: 67%;
->>>>>>> scrum20-five-values
+        width: 67%; 
         text-align: center;
     }
- 
+
     .circle {
         width: 300px;
         height: 300px;
-        padding: 40px;
+        padding: 40px; 
     }
 }
