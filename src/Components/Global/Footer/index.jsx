@@ -10,7 +10,7 @@ const Footer = () => {
           <li>Alexandra Blomberg</li>
           <li>Miski M. Manzizila</li>
           <li>Wilma Norman</li>
-          <li>Lisette Swan</li>
+          <li>Lisette Svan</li>
           <li>Maria Hendricks</li>
         </ul>
       </div>
