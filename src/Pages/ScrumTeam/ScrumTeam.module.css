@@ -1,0 +1,5 @@
+.scrumTeamContainer {
+    background-color: #E4DEE8;
+    display: flex;
+    flex-direction: column;
+}
