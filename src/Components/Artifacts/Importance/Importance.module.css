@@ -1,0 +1,54 @@
+.importanceContainer {
+    display: flex;
+    flex-direction: column;
+    padding: 32px;
+    width: 100%;
+}
+
+.importanceContainer .textWrapper h2, .importanceContainer .textWrapper p {
+    padding-bottom: 16px;
+}
+
+.importanceContainer .imageWrapper {
+    margin-bottom: 32px;
+}
+
+.importanceContainer img {
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    width: 100%;
+}
+
+.navigationButton {
+    justify-content: center;
+    display: flex;
+}
+
+@media screen and (min-width: 768px) {
+    .importanceContainer {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .importanceContainer .imageWrapper {
+        flex: 1;
+        justify-content: center;
+        margin-bottom: unset;
+        display: flex;
+    }
+
+    .importanceContainer .imageWrapper img {
+        max-width: 80%;
+        max-width: 450px;
+    }
+
+    .importanceContainer .textWrapper {
+        flex: 1;
+        padding-left: 32px;
+    }
+
+    .navigationButton {
+        justify-content: center;
+        display: flex;
+    }
+}

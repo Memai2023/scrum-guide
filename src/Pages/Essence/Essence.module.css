@@ -1,3 +1,12 @@
-html {
-    background-color:#DDE5DD;
+:root {
+    --essence-bg-color: #DDE5DD;
+    --essence-highlight-color: #008960;
+    --essence-dark-green: #294E43;
+}
+
+.essenceContainer {
+    align-items: center;
+    background-color: var(--essence-bg-color);
+    display: flex;
+    flex-direction: column;
 }

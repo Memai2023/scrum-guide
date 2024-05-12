@@ -1,0 +1,13 @@
+:root {
+    --artifact-bg-color: rgb(65, 65, 65);
+    --artifact-sprint-review-bg-color: #a3cae4;
+    --artifacts-bg-color: #1d91df;
+}
+
+.artifactContainer {
+    background-color: var(--artifact-bg-color);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
