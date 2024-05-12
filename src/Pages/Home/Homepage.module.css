@@ -1,0 +1,7 @@
+:root {
+    --essence-bg-color: #E5DDDD;
+}
+
+.homeContainer {
+    background-color: var(--essence-bg-color);
+}
