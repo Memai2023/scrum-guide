@@ -1,0 +1,7 @@
+:root {
+    --sprint-bg-color: #fff3fd;
+}
+
+.sprintContainer {
+    background-color: var(--sprint-bg-color);
+}
