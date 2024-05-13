@@ -78,7 +78,7 @@
     text-align: center;    
 }
 
-@media only screen and (max-width: 760px) {
+@media only screen and (max-width: 768px) {
 
     .wraperScrum {
         display: flex;
