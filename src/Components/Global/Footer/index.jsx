@@ -15,7 +15,7 @@ const Footer = () => {
         </ul>
       </div>
       <div className={styles.footerCenter}>
-      <img src="/Images/logo_transparent.png" alt="Logo transparant" style={{ maxWidth: '100px' }} />
+      <img src="/Images/logo_transparent.png" alt="Logo transparent" style={{ maxWidth: '100px' }} />
       </div>
       <div className={styles.footerRight}>
         <p>The Scrum Guide Copyright 2024</p>
