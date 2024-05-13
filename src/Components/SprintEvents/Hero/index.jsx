@@ -6,7 +6,6 @@ const EventsHero = () => {
         <>
         <div style={{backgroundImage:`url(${SprintEvents.heroImgSource})`}} className={styles.wraperHero} >                           
             <h1 className={styles.headerText}>Sprint Events</h1>  
-            <hr class={styles.border}/>
         </div>                   
         </>
     )
