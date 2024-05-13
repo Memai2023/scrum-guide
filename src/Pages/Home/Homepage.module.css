@@ -1,0 +1,7 @@
+:root {
+    --hero-bg-color: #E5DDDD;
+}
+
+.homeContainer {
+    background-color: var(--hero-bg-color);
+}
