@@ -26,13 +26,6 @@
     font-size: 3rem;
 }
 
-.border {
-    position: absolute;
-    bottom: 5%;
-    background-color: gray;
-    width: 100%;    
-}
-
 @media screen and (max-width: 768px ){
     .headerText {
         font-size: 2.2rem;
