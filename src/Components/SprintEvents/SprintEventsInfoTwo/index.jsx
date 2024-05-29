@@ -10,7 +10,7 @@ const SprintEventsInfoTwo = () => {
           <p>{SprintEvents.sprintReviewText}</p>
         </div>
         <div className={styles.card}>
-          <h2>Daily Retrospective</h2>
+          <h2>Sprint Retrospective</h2>
           <p>{SprintEvents.retrospectiveText}</p>
         </div>
       </div>
